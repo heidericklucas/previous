@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title>How Fast Can You "Typo"?</title>
+    <meta charset='utf-8'>
+    <script src="fastTyping.js"></script>
+</head>
+
+<body>
+    <div style="padding-top:20%">
+        <center>
+            <h1>How Fast Can You "Typo"? </h1>
+            <form name="typingGame">
+                <table>
+                    <tr>
+                        <td>
+                            <center><input type=button value="Start Typing Test" onClick="typeAsFastAsYouCan()">
+                            </center>
+                            <p>
+                                <textarea name="givenSentence" cols=53 rows=3 wrap=on
+                                    onFocus="dontEvenThinkAboutIt()"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type=text name="typed" size=46>
+                            <input type=button value="SUBMIT" onClick="Results()">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+
+</body>
+
+</html>
